@@ -1,0 +1,13 @@
+apiVersion: v2
+name: my-chart
+version: 0.1.0
+appVersion: 1.0.0
+
+dependencies:
+  - name: nginx
+    version: "18.1.2"
+    repository: https://charts.bitnami.com/bitnami
+
+  - name: postgresql
+    version: "15.5.10"
+    repository: https://charts.bitnami.com/bitnami
